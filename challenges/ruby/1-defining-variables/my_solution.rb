@@ -2,6 +2,7 @@
 
 # Tu solucion abajo
 
+<<<<<<< HEAD
 ## Resumen
 #Crea las variables llamadas `first_name`, `last_name`, y  `age`
 #asigna estas variables a tu informacion personal.
@@ -14,6 +15,10 @@
 first_name = 'Mauricio'
 last_name = 'Lancheros'
 age = 34
+=======
+
+first_name = 'local-variable'
+>>>>>>> upstream/master
 
 # Pruebas NO LAS BORRES
 
