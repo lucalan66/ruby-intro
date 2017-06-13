@@ -2,13 +2,18 @@
 
 # Tu solucion abajo
 
-first_name = 'Juan'
-last_name = 'fdsaf'
-age = 2
+## Resumen
+#Crea las variables llamadas `first_name`, `last_name`, y  `age`
+#asigna estas variables a tu informacion personal.
 
-name = "Germán"
-name = gets.chomp
-puts "Hola #{name}"
+
+  
+
+  
+
+first_name = 'Mauricio'
+last_name = 'Lancheros'
+age = 34
 
 # Pruebas NO LAS BORRES
 

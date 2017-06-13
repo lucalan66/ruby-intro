@@ -2,17 +2,30 @@
 
 
 # Tu solucion abajo:
+=begin
+  
+rescue Exception => e
+  
 
-num1 = 4
-num2 = 9
+## Resumen
+Crear dos variables llamadas `num1` y `num2` y asignales a tus numeros favoritos.
 
-sum = num2 + num1
-difference = num1 - num2
-quotient = num1.to_f / num2
-modulus = num1 % num2
-product = num1 * num2
+Ahora, calcula la suma, diferencia, cociente, producto y modulo de estos dos numeros y 
+asigna cada valor a variables llamadas: `sum`, `difference`, `quotient`, `product`, y `modulus`, 
+respectivamente.
+
+Para el cociente, asegurate de convertir las variables a `Floats` antes de realizar la division.
+=end
 
 # Pruebas NO LAS BORRES
+num1 = 78
+num2 = 65
+
+sum = num1 + num2
+difference = num1 - num2
+quotient = num1 / num2.to_f
+product = num1 * num2
+modulus = num1 % num2
 
 
 describe 'num1' do

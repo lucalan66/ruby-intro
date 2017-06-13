@@ -3,19 +3,13 @@
 # Tu solucion abajo:
 
 
-def valid_triangle?(x,y,z)
-  if x <= 0 && y <= 0 && z <= 0
-    false
-  elsif (x + y) <= z || (x + z) <= y || (y + z) <= x
-    false
-  else
-    true
+def valid_triangle? (num1, num2, num3)
+
+  if num1<=0 && num2<=0 && num3<=0 
+    return false   
   end
-end
 
-
-def valid_triangle?(a, b, c)
-  if (a+b>c) && (a+c>b) && (b+c>a)
+  if num1 < num2 + num3 && num2 < num1 + num3 && num3 < num1 + num2
     true
   else
     false
@@ -23,8 +17,7 @@ def valid_triangle?(a, b, c)
 end
 
 
-
-
+  
 
 
 
