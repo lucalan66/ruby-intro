@@ -2,21 +2,16 @@
 
 # Tu solucion abajo:
 
-[1,2,3,4,5,6]
-upper = 4
-lower = 2
+def count_between(array,min,max)
+	if max < min 
+		nil
+	end
+	
+	if array.empty? == true
+		0
+	else array.count { |val| val >= min && val <=max }
 
-
-def count_between(arr, upper, lower)
-  arr.count {|x| (x >= lower) && (x<= upper)}
+	end
+		
 end
 
-def count_between(arr, lower, upper)
-  count = 0
-  arr.each do |x|
-    if (x >= lower) && (x<= upper)
-      count = count + 1
-    end
-  end
-  count
-end
